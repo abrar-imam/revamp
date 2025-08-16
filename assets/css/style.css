@@ -1,0 +1,33 @@
+/* Custom font for the logo name */
+@import url('https://fonts.googleapis.com/css2?family=Cursive&display=swap');
+.font-logo {
+    font-family: "Cursive", cursive;
+}
+
+/* Custom color palette based on the logo theme */
+:root {
+    --color-primary: #3e2c2c;
+    --color-secondary: #f5f5dc; /* Off-white */
+    --color-accent: #b08d57;
+}
+
+/* Basic body styling with the theme colors */
+body {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    font-family: 'Inter', sans-serif;
+}
+
+/* Utility class for cursor pointer on interactive elements */
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* Main content section styling */
+.content-section {
+    display: none;
+}
+
+.content-section.active {
+    display: block;
+}
